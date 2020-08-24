@@ -3,7 +3,7 @@ function print_grid(grid,row,col)
     for i in 2:row+1
         for j in 2:col+1
             if grid[i,j] == 1
-                print(" # ")
+                print(" o ")
             else
                 print(" - ")
             end
