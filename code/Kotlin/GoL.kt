@@ -3,12 +3,13 @@ import kotlin.random.Random
 fun main() {
     println("Game Of Life!!")
 
+    var generations = 5
+
     var board = initLife(4,5,(0.619).toFloat())
-    println("\nGeneration: 0")
+    println("\nGeneration: $generations")
     showLife(board)
 
-    var generations = 5
-    for (i in 1..generations){
+    for (i in generations-1...1){
         println("\n\nGeneration: $i")
         gameOfLife(board)
         showLife(board)
@@ -69,7 +70,7 @@ fun gameOfLife(board: Array<IntArray>): Unit {
                 nextCol = j + directions[d].second
                 if(checkBounds(rows, cols, nextRow, nextCol)){
                     if(board[nextRow][nextCol]==1 || board[nextRow][nextCol]==-1){
-                        liveNeighbours = liveNeighbours + 1
+                        liveNeighbours = liveNeighbours + board[nextRow][nextCol]
                     }
                 }   
             }
