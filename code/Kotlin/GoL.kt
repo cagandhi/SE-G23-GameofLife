@@ -3,34 +3,36 @@ import kotlin.random.Random
 fun main() {
     println("Game Of Life!!")
 
-    var generations = 5
+    var generations = 2
+    var correctExecution = 0
 
-    var board = initLife(4,5,(0.619).toFloat())
+    var board = getDefault(1)
     println("\nGeneration: $generations")
-    showLife(board)
+    showBoard(board)
 
+    //we want this loop to run from 'generations-1' to '1'
     for (i in generations-1...1){
         println("\n\nGeneration: $i")
         gameOfLife(board)
-        showLife(board)
-    }
+        showBoard(board)
 
-}
-
-fun initLife(rows: Int, cols: Int, seed: Float): Array<IntArray>{
-    var board = Array(rows) {IntArray(cols)}
-    for (i in 0..rows-1){
-        for (j in 0..cols-1){
-            if(Random.nextFloat() < seed)
-            {
-                board[i][j]=1
-            }
+        if(check(1,board)){
+            correctExecution+=1
+            println("This is correct :)")
         }
+        else{
+            println("This is NOT correct :(")
+        }
+        
     }
-    return board
+
+    println("\n\nResult:\n---------------------")
+    println("Compilation Test: Passed!")
+    println("Execution Test: $correctExecution/1 passed!")
+
 }
 
-fun showLife(board: Array<IntArray>): Unit {
+fun showBoard(board: Array<IntArray>): Unit {
     val rows = board.count()
     val cols = board[0].count()
     for (i in 0..rows-1){
@@ -93,3 +95,45 @@ fun gameOfLife(board: Array<IntArray>): Unit {
         }
     }
 }
+
+//Don't change this function
+fun getDefault(testCaseNumber: Int): Array<IntArray>{
+    var board = Array(0) {IntArray(0)}
+    if(testCaseNumber == 1){
+        board = arrayOf(intArrayOf(1,0,1),
+                        intArrayOf(0,1,0),
+                        intArrayOf(1,0,0)) 
+    }
+    return board
+}
+
+//Don't change this function
+fun check(testCaseNumber: Int, board: Array<IntArray>): Boolean{
+    var expectedBoard = Array(0) {IntArray(0)}
+    var result = false
+    if(testCaseNumber == 1){
+        expectedBoard = arrayOf(intArrayOf(0,1,0),
+                                intArrayOf(1,1,0),
+                                intArrayOf(0,0,0))
+
+        if(board.contentDeepEquals(expectedBoard)){
+            result = true
+        }
+    }
+    return result
+}
+
+/*
+fun initLife(rows: Int, cols: Int, seed: Float): Array<IntArray>{
+    var board = Array(rows) {IntArray(cols)}
+    for (i in 0..rows-1){
+        for (j in 0..cols-1){
+            if(Random.nextFloat() < seed)
+            {
+                board[i][j]=1
+            }
+        }
+    }
+    return board
+}
+*/
