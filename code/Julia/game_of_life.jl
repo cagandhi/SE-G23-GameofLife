@@ -37,7 +37,7 @@ function game_of_life(grid, row, col)
             if grid[i,j] == 0
                 new_grid[i,j] = neighbor == 3?1:0
             else
-                new_grid[i,j] = neighbor==2 || neighbor == 3 ? 1:0
+                new_grid[i,j] = neighbor==2 || neighbors == 3 ? 1:0
             end
         end
     end
