@@ -55,6 +55,7 @@ We leverage a google form filled by the subject and our manual observations to g
 - __Time taken to debug bugs in each language__: Direct measure of how easy it is to understand code in a language.
 - __Number of bugs solved in each language__: Whether the subject was able to solve both the bugs in a language.
 - __Number of times the code was run in the online compiler__: Measure of the ease of following the error stacktrace shown by the compiler.
+- These manual observations will be recorded in [this google sheet](https://docs.google.com/spreadsheets/d/1mUfDjupsczMQOG7zdjMPwpimFpN12EN1l0mqjGJAVts/edit?usp=sharing).
 
 ## Team Members:
 * Suraj Patel (sjpate22)
