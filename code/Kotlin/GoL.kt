@@ -63,7 +63,7 @@ fun gameOfLife(board: Array<IntArray>): Unit {
     var liveNeighbours = 0
     var directions = arrayOf(Pair(0, 1), Pair(0, -1), Pair(-1, 0), Pair(1, 0), Pair(1, 1), Pair(-1, -1), Pair(1, -1), Pair(-1, 1) )
     // alive to dead --> -1
-    // dead to alive --> -2
+    // dead to alive --> 2
     for (i in 0..rows-1){
         for (j in 0..cols-1){
             liveNeighbours = 0
@@ -80,7 +80,7 @@ fun gameOfLife(board: Array<IntArray>): Unit {
                 board[i][j] = -1
             }
             else if (board[i][j] == 0 && (liveNeighbours == 3)){
-                board[i][j] = -2
+                board[i][j] = 2
             }
         }
     }
@@ -89,7 +89,7 @@ fun gameOfLife(board: Array<IntArray>): Unit {
             if (board[i][j] == -1){
                 board[i][j] = 0
             }
-            else if (board[i][j] == -2){
+            else if (board[i][j] == 2){
                 board[i][j] = 1
             }
         }
