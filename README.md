@@ -27,6 +27,13 @@ code
   - [Kotlin ReadMe](code/Kotlin/README.md)
   - [Scala ReadMe](code/Scala/README.md)
 
+#### Logic for in-place implementation of game of life 
++ In Kotlin and Scala, we have implemented the game of life using an in-place logic. (i.e. without using a new matrix for next generation.) The logic is as follows:
++ As usual, live cell is represented by 1 and dead cell is represented by 0. But when a live cell becomes dead, we replace '1' with '-1' instead of '0'. Similarly, when a dead cell becomes alive, we replace '0' with '2' instead of '1'.
++ When we look for live or dead neighbors, we consider '-1' as live cell. (Because, it represents that the cell was live in previous genration but it will be dead in next generation). Similarly, we consider '2' as dead cell.
++ At the end of loop iteration (i.e. when all the cells are updated and we are ready to move towards next genertion), we replace all '-1' with '0' and all '2' with '1'.
++ For better understanding of this logic, see 'Approach 2' on [this page](https://leetcode.com/problems/game-of-life/solution/).
+
 ## Experimentation script (to guide the session)
 [Code](code/) directory contains the GoL implementations which are almost similar in nature. Each code file contains 2 bugs: 1 compilation bug and 1 runtime bug. We ask you to identify and resolve these bugs from our life so we can live peacefully :)
 
