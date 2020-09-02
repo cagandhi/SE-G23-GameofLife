@@ -52,6 +52,7 @@ We leverage a google form filled by the subject and our manual observations to g
 - __Programming languages familiar to the subject__: Measure how a subject's experience with a similar language aided the understanding of language L.
 - __Time spent working with language L before the experiment__: Measure how bug solving effort changes with background experience of the subject in that language.
 - __Time since language L was last used__: Measure if it was easier for the subject to solve bugs because they worked with language L recently.
+- __Things helped to solve the bugs__: Somtimes compiler messages, familiarity with some other language, etc. may become very useful to solve bugs in some language. so, we ask participants to mention what helped them.
 - __Difficulty level of bugs introduced__: Even though we have tried to keep the difficulty level of bugs similar in the different languages' code, we want an input from the subject as to whether they felt any disparities in bug difficulty level among the 3 languages.
 - __Quality of introduced bugs__: Qualitative input from the subject on the quality of the bugs.
 - __Ranking the 3 languages based on ease of debugging__: Subject's ranking of the 3 languages based on how easy a language was to debug than another.
@@ -62,6 +63,7 @@ We leverage a google form filled by the subject and our manual observations to g
 - __Time taken to debug bugs in each language__: Direct measure of how easy it is to understand code in a language.
 - __Number of bugs solved in each language__: Whether the subject was able to solve both the bugs in a language.
 - __Number of times the code was run in the online compiler__: Measure of the ease of following the error stacktrace shown by the compiler.
+- __Other remarks__: Anything which is not covered in above mentioned observations.
 - These manual observations will be recorded in [this google sheet](https://docs.google.com/spreadsheets/d/1mUfDjupsczMQOG7zdjMPwpimFpN12EN1l0mqjGJAVts/edit?usp=sharing).
 
 ## Team Members:

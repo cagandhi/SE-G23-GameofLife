@@ -1,6 +1,17 @@
 # SE-G23-HW3-GameofLife-Experiment-and-Results
 
 ## Methods
+1. **Defining the problem:** We implemented Game of Life in three different languages: Scala, Kotlin and Julia. We added 2 bugs in each code.
+   - Logical bug: To evaluate how easily debugger can understand syntactical differences present in the language compared to other languages. Also to see how useful are online resources in understanding the language.
+   - Compilation bug: To check if compiler messages are useful enough to solve such errors. If not, how useful are online resources.
+2. **Sign-up process:** We got 10 entries in our sign-up sheet. We scheduled a a zoom meeting at a time of participants' convenience. Prior to meeting, we sent them required resources' link and a token (key) via email. We ran the each meetings for 30 minutes.
+3. **Debugging session:**
+   - Participants were asked to share the screen throughout the debugging session.
+   - 2 of our team members attended each session as hosts.
+   - Participants were given some instruction by hosts about the proceedings of the session. (e.g. Reading the readme file, filling each section of the survey form when they finish debugging of that particular language, etc.)
+   - Hosts tried to give as less hints as they could so we could avoid having the hosts' bias on our results.
+   - We asked participants to fill [this google form](https://forms.gle/ZBSEVTSdRgGMewXd9) to have their input on what they felt about each language. The data collected from this form is described [here in 'Google Form inputs' section](https://github.com/cagandhi/SE-G23-GameofLife#data-collection-tools).
+   - The session hosts observed the pariticipant's screen and wrote down some manual observations in [this google sheet](https://docs.google.com/spreadsheets/d/1mUfDjupsczMQOG7zdjMPwpimFpN12EN1l0mqjGJAVts/edit?usp=sharing). The data collected in this sheet is described [here in 'Manual observations' section](https://github.com/cagandhi/SE-G23-GameofLife#data-collection-tools).
 
 ## Materials
 1. [Scala code and instructions](code/Scala) to run the code
