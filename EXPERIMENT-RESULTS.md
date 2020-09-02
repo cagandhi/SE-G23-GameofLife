@@ -24,7 +24,20 @@
 8. [Manual observations](https://docs.google.com/spreadsheets/d/1mUfDjupsczMQOG7zdjMPwpimFpN12EN1l0mqjGJAVts/edit?usp=sharing) taken by session hosts.
 
 ## Observations
+<img src="data/Scala_Experience.png" width="500" height="300">
+<img src="data/Kotlin_Experience.png" width="500" height="300">
+<img src="data/Julia_Experience.png" width="500" height="300">
 
+* As observed, the subjects have had less exposure with scala since most of them used scala within the scope of this experiment.
+* Similarly, subjects were possesed little fimiliarity with Kotlin and Julia in past. 
+
+<img src="data/Language_Ease.png">
+
+* Subjects being very less exposed to Scala, they found it's code style unique and very unfimiliar. Hence it turned out to be most interesting language.
+
+<img src="data/Language_Debug.png">
+
+* Scala turned out to be most difficult, given the lack of experience by the subjects. Moreover, Julia being similar to python - subjects found it easiest to work with. 
 ## Conclusions
 
 ## Threats to validity
