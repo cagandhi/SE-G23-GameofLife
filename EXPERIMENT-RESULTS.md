@@ -32,13 +32,13 @@
 * We also see that 7/9 people have experience in Python since Python has become extremely popular recently because of easy syntax and various frameworks for webapps being built around Python.
 
 ### Time since language last used
-<img src="data/Scala_Experience.png" width="250" height="300"><img src="data/Kotlin_Experience.png" width="250" height="300"><img src="data/Julia_Experience.png" width="250" height="300"><img src="data/time_since_label.png" width="175" height="250">
+<img src="data/Scala_Experience.png" width="250" height="300"><img src="data/Kotlin_Experience.png" width="250" height="300"><img src="data/Julia_Experience.png" width="250" height="300"><img src="data/time_since_label.png" width="150" height="275">
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Scala&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Kotlin&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Julia
 
 * The subjects have had less exposure with Scala since most of them used scala within the last week and we believe they would have used that in scope of this experiment. Similarly, subjects possesed little familiarity with Kotlin and Julia in the past.
 
 ### Time spent with language before the experiment
-<img src="data/time_spent_b4_scala.png" width="275" height="300"><img src="data/time_spent_b4_kotlin.png" width="275" height="300"><img src="data/time_spent_b4_julia.png" width="275" height="300"><img src="data/time_b4_label.png" width="100" height="200">
+<img src="data/time_spent_b4_scala.png" width="250" height="250"><img src="data/time_spent_b4_kotlin.png" width="250" height="250"><img src="data/time_spent_b4_julia.png" width="250" height="250"><img src="data/time_b4_label.png" width="150" height="220">
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Scala&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Kotlin&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Julia
 
 * We see that the majority of the subjects don't have exposure to any of the languages we used for our experiment and hence majority fall in the 0-5 hrs slab. Also, there are some subjects who have used Julia previously for more than a year.
@@ -59,7 +59,8 @@
 ### Which language did you find interesting?
 <img src="data/Language_Ease.png">
 
-* Subjects being less exposed to Scala found its code style unique and unfamiliar and wanted to explore it more in the future. We also see that Julia was the least interesting for the subjects and we believe there might be a couple of reasons for that. First, Julia is very much like Python and used for similar purposes. Since we saw that the majority of the subjects were exposed to Python, they would not find value in learning a new language. Also, as subjects complained during the session, Julia's compilation error message was not at all helpful which might have also influenced their decision to not pursue it in the future.
+* Subjects, being less exposed to Scala, found its code style unique and unfamiliar and wanted to explore it more in the future. 
+* We also see that Julia was the least interesting for the subjects and we believe there might be a couple of reasons for that. Firstly, Julia is very much like Python and used for similar purposes. Since we saw that the majority of the subjects were exposed to Python, they would not find value in learning a new language. Secondly, as subjects complained during the session, Julia's compilation error message was not at all helpful which might have also influenced their decision to not pursue it in the future.
 
 ## Conclusions
 
