@@ -54,12 +54,12 @@
 ### Which language was easy to debug?
 <img src="data/Language_Debug.png">
 
-* Scala turned out to be the most difficult to debug given that the subjects were not familiar with the language., given the lack of experience by the subjects. Moreover, Julia being similar to python - subjects found it easiest to work with. 
+* Scala turned out to be the most difficult to debug given that the subjects were not familiar with the language, given the lack of experience by the subjects. Moreover, Julia being similar to python - subjects found it easiest to work with. 
 
 ### Which language did you find interesting?
 <img src="data/Language_Ease.png">
 
-* Subjects, being less exposed to Scala, found its code style unique and unfamiliar and wanted to explore it more in the future. 
+* Subjects, being less exposed to Scala, found its code style unique, unfamiliar and displayed their curiosity to explore it more in the future. 
 * We also see that Julia was the least interesting for the subjects and we believe there might be a couple of reasons for that. Firstly, Julia is very much like Python and used for similar purposes. Since we saw that the majority of the subjects were exposed to Python, they would not find value in learning a new language. Secondly, as subjects complained during the session, Julia's compilation error message was not at all helpful which might have also influenced their decision to not pursue it in the future.
 
 ## Conclusions
