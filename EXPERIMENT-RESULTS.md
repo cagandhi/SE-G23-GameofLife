@@ -63,6 +63,8 @@
 * We also see that Julia was the least interesting for the subjects and we believe there might be a couple of reasons for that. Firstly, Julia is very much like Python and used for similar purposes. Since we saw that the majority of the subjects were exposed to Python, they would not find value in learning a new language. Secondly, as subjects complained during the session, Julia's compilation error message was not at all helpful which might have also influenced their decision to not pursue it in the future.
 
 ## Conclusions
+* The better error messages help developer to quickly resolve the compilation issue whereas the familiarity with the syntax and semantics of language help to resolve the logical error quickly.
+* Participants found most difficult to debug language as most interesting.
 
 ## Threats to validity
 * Some of the bugs were hard to find due to less understanding of the language.To increase the validity of the testing, the tester's prior knowledge to the language should have been considered.
