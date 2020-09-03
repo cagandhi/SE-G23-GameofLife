@@ -24,20 +24,43 @@
 8. [Manual observations](https://docs.google.com/spreadsheets/d/1mUfDjupsczMQOG7zdjMPwpimFpN12EN1l0mqjGJAVts/edit?usp=sharing) taken by session hosts.
 
 ## Observations
-<img src="data/Scala_Experience.png" width="500" height="300">
-<img src="data/Kotlin_Experience.png" width="500" height="300">
-<img src="data/Julia_Experience.png" width="500" height="300">
 
-* As observed, the subjects have had less exposure with scala since most of them used scala within the scope of this experiment.
-* Similarly, subjects were possesed little fimiliarity with Kotlin and Julia in past. 
+### Familiarity with languages
+<img src="data/familiar_languages.png">
 
-<img src="data/Language_Ease.png">
+* This shows the languages subjects were familiar with prior to the experiment. We see that subjects didn't have prior exposure to Julia and Scala however 2/9 subjects were exposed to Kotlin previously. This should result in a more or less equal experiment setup as majority of subjects had no experience with any of the 3 languages.
+* We also see that 7/9 people have experience in Python since Python has become extremely popular recently because of easy syntax and various frameworks for webapps being built around Python.
 
-* Subjects being very less exposed to Scala, they found it's code style unique and very unfimiliar. Hence it turned out to be most interesting language.
+### Time since language last used
+<img src="data/Scala_Experience.png" width="250" height="300"><img src="data/Kotlin_Experience.png" width="250" height="300"><img src="data/Julia_Experience.png" width="250" height="300"><img src="data/time_since_label.png" width="175" height="250">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Scala&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Kotlin&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Julia
 
+* The subjects have had less exposure with Scala since most of them used scala within the last week and we believe they would have used that in scope of this experiment. Similarly, subjects possesed little familiarity with Kotlin and Julia in the past.
+
+### Time spent with language before the experiment
+<img src="data/time_spent_b4_scala.png" width="275" height="300"><img src="data/time_spent_b4_kotlin.png" width="275" height="300"><img src="data/time_spent_b4_julia.png" width="275" height="300"><img src="data/time_b4_label.png" width="100" height="200">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Scala&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Kotlin&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Julia
+
+* We see that the majority of the subjects don't have exposure to any of the languages we used for our experiment and hence majority fall in the 0-5 hrs slab. Also, there are some subjects who have used Julia previously for more than a year.
+* We believe subjects have not filled the data for languages familiar to them properly since some subjects have used Julia previously for over a year but they did not list Julia in the languages familiar to them.
+
+### Mean Debug Times for languages
+<img src="data/debug_times.png">
+
+* This plot shows that the mean debug time to solve the compilation error in Scala is minimum. This means that people were able to solve the compilation bug quickly in Scala and this fact is strengthened by the fact that 7/9 people found Scala easy to debug because of extremely helpful compilation error messages. 
+* However, the debug time for logical error is maximum for Scala and we attribute this increase in time to a trickier logical bug in Scala.
+* It is also visible that the complete debug time for both bugs was lowest in Julia and we believe this is due to the subjects' exposure to Python which is extremely similar to Julia.
+
+### Which language was easy to debug?
 <img src="data/Language_Debug.png">
 
-* Scala turned out to be most difficult, given the lack of experience by the subjects. Moreover, Julia being similar to python - subjects found it easiest to work with. 
+* Scala turned out to be the most difficult to debug given that the subjects were not familiar with the language., given the lack of experience by the subjects. Moreover, Julia being similar to python - subjects found it easiest to work with. 
+
+### Which language did you find interesting?
+<img src="data/Language_Ease.png">
+
+* Subjects being less exposed to Scala found its code style unique and unfamiliar and wanted to explore it more in the future. We also see that Julia was the least interesting for the subjects and we believe there might be a couple of reasons for that. First, Julia is very much like Python and used for similar purposes. Since we saw that the majority of the subjects were exposed to Python, they would not find value in learning a new language. Also, as subjects complained during the session, Julia's compilation error message was not at all helpful which might have also influenced their decision to not pursue it in the future.
+
 ## Conclusions
 
 ## Threats to validity
